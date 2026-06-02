@@ -1,8 +1,12 @@
 ---
 title: "Kennedy Gitau"
+image: profile.jpg
 about:
   template: jolla
   links:
+    - icon: envelope
+      text: Email
+      href: mailto:your.email@example.com
     - icon: github
       text: GitHub
       href: https://github.com/gitaukennedy
@@ -17,26 +21,18 @@ I am an Actuarial Analyst and Data Scientist specializing in the design, buildin
 
 ---
 
-## Core Production Engines
+## Technical Expertise
 
-### 🚀 Strata Insurtech Platform
-An integrated insurance technology system engineered using FastAPI and Streamlit to deploy specialized actuarial models and deliver real-time risk assessments. 
-* **Project Documentation:** [View Engine Layout](projects/insurtech.qmd)
-
-### 🌾 Crop Insurance Claim Risk Engine
- An exploratory data analysis and predictive modeling framework designed to identify, analyze, and classify insurance claim risks for smallholder farmers.
-* **Documentation & Insights:** [Read Full Project Write-up](projects/crop-insurance.qmd)
-
-### 🧠 Sauti Ya Mwananchi
-A full-stack, AI-driven analysis engine architected to parse, deconstruct, and analyze complex regulatory texts, such as national Finance Bills.
-* **Project Deep Dive:** [Read Technical Methodology](projects/sauti-ya-mwananchi.qmd)
-
-### 📊 Health Risk Prediction System
-An end-to-end machine learning application built using a RandomForestClassifier to estimate and predict diabetes risks based on key clinical health metrics like glucose levels and BMI.
-* **Live Application:** [View Code](projects/health-predictor.qmd)
+* **Actuarial Science:** Mathematical risk modeling, insurance data analysis, and professional certification preparation (IFOA Papers CS1 & CM1 in progress).
+* **Machine Learning & Engineering:** End-to-end deployment utilizing Python, FastAPI, Streamlit, and Scikit-learn.
+* **Data Infrastructure:** Modern development utilizing T-SQL, Docker, Git, and cloud automation platforms.
 
 ---
 
-## Professional Qualifications
-* **Accreditation:** Institute and Faculty of Actuaries (IFOA) — Papers CS1 & CM1 in progress.
-* **Education:** Bachelor's Degree.
+## Contact Information
+
+If you would like to discuss predictive modeling, actuarial risk analysis, or software engineering opportunities, feel free to reach out:
+
+* **Email:** your.email@example.com
+* **GitHub:** [github.com/gitaukennedy](https://github.com/gitaukennedy)
+* **LinkedIn:** [linkedin.com/in/kennedy-gitau-a242562b3](https://linkedin.com/in/kennedy-gitau-a242562b3)
