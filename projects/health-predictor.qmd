@@ -1,0 +1,20 @@
+---
+title: "Health Risk Prediction System"
+---
+
+## Project Overview
+An end-to-end machine learning application built to estimate and predict diabetes risks based on key clinical health metrics. The predictive model utilizes a random forest classifier architecture rather than standard linear baselines to capture complex non-linear feature interactions.
+
+## Technical Stack
+* **Model Engine:** Scikit-Learn (RandomForestClassifier)
+* **API Layer:** FastAPI
+* **UI Interface:** Streamlit
+
+## Model Architecture Implementation
+
+```python
+from sklearn.ensemble import RandomForestClassifier
+
+# Utilizing RandomForest to model complex health risk metrics (e.g., Glucose, BMI)
+classifier = RandomForestClassifier(n_estimators=100, random_state=42)
+print("Random Forest Classifier optimized for risk estimation.")

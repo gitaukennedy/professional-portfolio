@@ -1,0 +1,9 @@
+```markdown
+---
+title: "Interactive Resume"
+---
+
+## Kennedy Gitau
+### Actuarial Data Scientist | Technical Risk Analyst
+
+*Resume content structure is currently being updated...*

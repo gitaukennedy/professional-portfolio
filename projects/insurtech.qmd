@@ -1,0 +1,20 @@
+---
+title: "Strata Insurtech Platform"
+---
+
+## Project Architecture & Core Layout
+
+A high-performance, decoupled microservices architecture designed to transition traditional insurance pricing into real-time, risk-optimized premium generation.
+
+```text
+strata-insurtech-platform/
+│
+├── prod_freq_xgb.json       # Serialized Poisson Frequency Engine
+├── prod_sev_lgb.txt         # Serialized Gamma Severity Engine
+├── prod_survival_cox.pkl    # Serialized Cox Hazard Proportional Model
+├── engine.py                # Core mathematical & actuarial matrix processing
+├── main.py                  # High-performance FastAPI REST API endpoints
+├── app.py                   # Multi-page interactive Streamlit dashboard
+├── requirements.txt         # Production-locked application dependencies
+├── test_pipeline.py         # Automated unit test and validation suite
+└── Dockerfile               # Environment blueprint for containerized deployment

@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Kennedy Gitau"
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: About
+      - text: "Machine Learning Engines"
+        menu:
+          - href: projects/insurtech.qmd
+            text: "Strata Insurtech Platform"
+          - href: projects/crop-insurance.qmd
+            text: "Crop Insurance Risk Engine"
+          - href: projects/sauti-ya-mwananchi.qmd
+            text: "Sauti Ya Mwananchi"
+          - href: projects/health-predictor.qmd
+            text: "Health Risk Prediction"
+      - href: resume.qmd
+        text: Resume
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-title: "On this page"
+    code-fold: true
