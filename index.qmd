@@ -1,4 +1,3 @@
-Markdown
 ---
 title: "Kennedy Gitau"
 about:
@@ -7,7 +6,6 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/gitaukennedy
-
     - icon: linkedin
       text: LinkedIn
       href: https://linkedin.com/in/kennedy-gitau-a242562b3
@@ -18,16 +16,15 @@ about:
 I am an Actuarial Analyst and Data Scientist specializing in the design, building, and deployment of end-to-end machine learning engines and interactive data applications. My expertise lies at the intersection of rigorous mathematical risk modeling, statistical learning, and robust backend engineering.
 
 ---
----
 
 ## Core Production Engines
 
-### 🚀 Insurtech & Risk Analytics Platform
+### 🚀 Strata Insurtech Platform
 An integrated insurance technology system engineered using FastAPI and Streamlit to deploy specialized actuarial models and deliver real-time risk assessments. 
-* **Live Application:** [View Live App](https://your-render-link.com) | [View Code Documentation](projects/insurtech.qmd)
+* **Project Documentation:** [View Engine Layout](projects/insurtech.qmd)
 
 ### 🌾 Crop Insurance Claim Risk Engine
-An exploratory data analysis and predictive modeling framework designed to identify, analyze, and classify insurance claim risks for smallholder farmers.
+ An exploratory data analysis and predictive modeling framework designed to identify, analyze, and classify insurance claim risks for smallholder farmers.
 * **Documentation & Insights:** [Read Full Project Write-up](projects/crop-insurance.qmd)
 
 ### 🧠 Sauti Ya Mwananchi
@@ -36,7 +33,7 @@ A full-stack, AI-driven analysis engine architected to parse, deconstruct, and a
 
 ### 📊 Health Risk Prediction System
 An end-to-end machine learning application built using a RandomForestClassifier to estimate and predict diabetes risks based on key clinical health metrics like glucose levels and BMI.
-* **Live Application:** [View Live Predictor](https://your-streamlit-link.com) | [View Code](projects/health-predictor.qmd)
+* **Live Application:** [View Code](projects/health-predictor.qmd)
 
 ---
 
