@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "projects/health-predictor.html",
+    "href": "projects/health-predictor.html",
+    "title": "Health Risk Prediction System",
+    "section": "",
+    "text": "An end-to-end machine learning application built to estimate and predict diabetes risks based on key clinical health metrics. The predictive model utilizes a random forest classifier architecture rather than standard linear baselines to capture complex non-linear feature interactions."
+  },
+  {
+    "objectID": "projects/health-predictor.html#project-overview",
+    "href": "projects/health-predictor.html#project-overview",
+    "title": "Health Risk Prediction System",
+    "section": "",
+    "text": "An end-to-end machine learning application built to estimate and predict diabetes risks based on key clinical health metrics. The predictive model utilizes a random forest classifier architecture rather than standard linear baselines to capture complex non-linear feature interactions."
+  },
+  {
+    "objectID": "projects/health-predictor.html#technical-stack",
+    "href": "projects/health-predictor.html#technical-stack",
+    "title": "Health Risk Prediction System",
+    "section": "Technical Stack",
+    "text": "Technical Stack\n\nModel Engine: Scikit-Learn (RandomForestClassifier)\nAPI Layer: FastAPI\nUI Interface: Streamlit"
+  },
+  {
+    "objectID": "projects/health-predictor.html#model-architecture-implementation",
+    "href": "projects/health-predictor.html#model-architecture-implementation",
+    "title": "Health Risk Prediction System",
+    "section": "Model Architecture Implementation",
+    "text": "Model Architecture Implementation\n```python from sklearn.ensemble import RandomForestClassifier"
+  },
+  {
+    "objectID": "projects/crop-insurance.html",
+    "href": "projects/crop-insurance.html",
+    "title": "Predicting Crop Insurance Claim Risk",
+    "section": "",
+    "text": "This predictive modeling framework was engineered to identify and classify insurance claim risks for smallholder farmers. By utilizing comprehensive exploratory data analysis (EDA) and advanced classification techniques, the engine isolates high-risk profiles to improve underwriting accuracy and premium pricing."
+  },
+  {
+    "objectID": "projects/crop-insurance.html#project-overview",
+    "href": "projects/crop-insurance.html#project-overview",
+    "title": "Predicting Crop Insurance Claim Risk",
+    "section": "",
+    "text": "This predictive modeling framework was engineered to identify and classify insurance claim risks for smallholder farmers. By utilizing comprehensive exploratory data analysis (EDA) and advanced classification techniques, the engine isolates high-risk profiles to improve underwriting accuracy and premium pricing."
+  },
+  {
+    "objectID": "projects/crop-insurance.html#technical-stack",
+    "href": "projects/crop-insurance.html#technical-stack",
+    "title": "Predicting Crop Insurance Claim Risk",
+    "section": "Technical Stack",
+    "text": "Technical Stack\n\nLanguage: Python\nLibraries: Scikit-Learn, Pandas, NumPy\nVersion Control: Git"
+  },
+  {
+    "objectID": "projects/crop-insurance.html#core-code-implementation",
+    "href": "projects/crop-insurance.html#core-code-implementation",
+    "title": "Predicting Crop Insurance Claim Risk",
+    "section": "Core Code Implementation",
+    "text": "Core Code Implementation\nHere is a look at how the classification pipeline handles the underlying data structure:\n```python import pandas as pd from sklearn.ensemble import RandomForestClassifier from sklearn.model_selection import train_test_split"
+  },
+  {
+    "objectID": "resume.html#title-interactive-resume",
+    "href": "resume.html#title-interactive-resume",
+    "title": "Interactive Resume",
+    "section": "title: “Interactive Resume”",
+    "text": "title: “Interactive Resume”"
+  },
+  {
+    "objectID": "resume.html#kennedy-gitau",
+    "href": "resume.html#kennedy-gitau",
+    "title": "Interactive Resume",
+    "section": "Kennedy Gitau",
+    "text": "Kennedy Gitau\n\nActuarial Data Scientist | Technical Risk Analyst\nResume content structure is currently being updated…"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kennedy Gitau",
+    "section": "",
+    "text": "I am an Actuarial Analyst and Data Scientist specializing in the design, building, and deployment of end-to-end machine learning engines and interactive data applications. My expertise lies at the intersection of rigorous mathematical risk modeling, statistical learning, and robust backend engineering."
+  },
+  {
+    "objectID": "index.html#actuarial-data-scientist-technical-risk-analyst",
+    "href": "index.html#actuarial-data-scientist-technical-risk-analyst",
+    "title": "Kennedy Gitau",
+    "section": "",
+    "text": "I am an Actuarial Analyst and Data Scientist specializing in the design, building, and deployment of end-to-end machine learning engines and interactive data applications. My expertise lies at the intersection of rigorous mathematical risk modeling, statistical learning, and robust backend engineering."
+  },
+  {
+    "objectID": "index.html#core-production-engines",
+    "href": "index.html#core-production-engines",
+    "title": "Kennedy Gitau",
+    "section": "Core Production Engines",
+    "text": "Core Production Engines\n\n🚀 Strata Insurtech Platform\nAn integrated insurance technology system engineered using FastAPI and Streamlit to deploy specialized actuarial models and deliver real-time risk assessments. * Project Documentation: View Engine Layout\n\n\n🌾 Crop Insurance Claim Risk Engine\nAn exploratory data analysis and predictive modeling framework designed to identify, analyze, and classify insurance claim risks for smallholder farmers. * Documentation & Insights: Read Full Project Write-up\n\n\n🧠 Sauti Ya Mwananchi\nA full-stack, AI-driven analysis engine architected to parse, deconstruct, and analyze complex regulatory texts, such as national Finance Bills. * Project Deep Dive: Read Technical Methodology\n\n\n📊 Health Risk Prediction System\nAn end-to-end machine learning application built using a RandomForestClassifier to estimate and predict diabetes risks based on key clinical health metrics like glucose levels and BMI. * Live Application: View Code"
+  },
+  {
+    "objectID": "index.html#professional-qualifications",
+    "href": "index.html#professional-qualifications",
+    "title": "Kennedy Gitau",
+    "section": "Professional Qualifications",
+    "text": "Professional Qualifications\n\nAccreditation: Institute and Faculty of Actuaries (IFOA) — Papers CS1 & CM1 in progress.\nEducation: Bachelor’s Degree."
+  },
+  {
+    "objectID": "projects/insurtech.html",
+    "href": "projects/insurtech.html",
+    "title": "Strata Insurtech Platform",
+    "section": "",
+    "text": "A high-performance, decoupled microservices architecture designed to transition traditional insurance pricing into real-time, risk-optimized premium generation.\n```text strata-insurtech-platform/ │ ├── prod_freq_xgb.json # Serialized Poisson Frequency Engine ├── prod_sev_lgb.txt # Serialized Gamma Severity Engine ├── prod_survival_cox.pkl # Serialized Cox Hazard Proportional Model ├── engine.py # Core mathematical & actuarial matrix processing ├── main.py # High-performance FastAPI REST API endpoints ├── app.py # Multi-page interactive Streamlit dashboard ├── requirements.txt # Production-locked application dependencies ├── test_pipeline.py # Automated unit test and validation suite └── Dockerfile # Environment blueprint for containerized deployment"
+  },
+  {
+    "objectID": "projects/insurtech.html#project-architecture-core-layout",
+    "href": "projects/insurtech.html#project-architecture-core-layout",
+    "title": "Strata Insurtech Platform",
+    "section": "",
+    "text": "A high-performance, decoupled microservices architecture designed to transition traditional insurance pricing into real-time, risk-optimized premium generation.\n```text strata-insurtech-platform/ │ ├── prod_freq_xgb.json # Serialized Poisson Frequency Engine ├── prod_sev_lgb.txt # Serialized Gamma Severity Engine ├── prod_survival_cox.pkl # Serialized Cox Hazard Proportional Model ├── engine.py # Core mathematical & actuarial matrix processing ├── main.py # High-performance FastAPI REST API endpoints ├── app.py # Multi-page interactive Streamlit dashboard ├── requirements.txt # Production-locked application dependencies ├── test_pipeline.py # Automated unit test and validation suite └── Dockerfile # Environment blueprint for containerized deployment"
+  }
+]
