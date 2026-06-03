@@ -30,21 +30,7 @@ This platform replaces rigid, legacy insurance look-up tables with an integrated
 
 ---
 
-## 📂 Repository File Blueprint
-
-```text
-strata-insurtech-platform/
-│
-├── prod_freq_xgb.json       # Serialized Poisson Frequency Engine
-├── prod_sev_lgb.txt         # Serialized Gamma Severity Engine
-├── prod_survival_cox.pkl    # Serialized Cox Hazard Proportional Model
-├── engine.py                # Core mathematical & actuarial matrix processing
-├── main.py                  # High-performance FastAPI REST API endpoints
-├── app.py                   # Multi-page interactive Streamlit dashboard
-
-
-
-Cloud Deployment Infrastructure
+## Cloud Deployment Infrastructure ##
 The application architecture is split globally into a highly scalable, container-managed cloud deployment layout:
 
 Backend Engine API: Containerized via native multi-stage Dockerfile mechanics and hosted on Render Cloud Infrastructure, exposing high-performance REST endpoints over public networks.

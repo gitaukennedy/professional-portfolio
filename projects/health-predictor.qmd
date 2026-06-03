@@ -1,7 +1,7 @@
 ---
 title: "Health Risk Prediction System"
 ---
-## GitHub Repository : https://github.com/gitaukennedy/Health-Risk-Predictor
+## GitHub Repository : [Health-Risk-Predictor](https://github.com/gitaukennedy/Health-Risk-Predictor)
 
 ## Project Overview
 An end-to-end machine learning application built to estimate and predict diabetes risks based on key clinical health metrics. The predictive model utilizes a random forest classifier architecture rather than standard linear baselines to capture complex non-linear feature interactions.
