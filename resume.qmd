@@ -1,9 +1,8 @@
 ---
 title: "Professional Resume"
 ---
-
-<div class="no-print" style="margin-bottom: 30px;">
-  <a class="btn btn-primary" href="resume.pdf" target="_blank" role="button">
+<div class="no-print" style="margin-top: 15px; margin-bottom: 25px;">
+  <a class="btn btn-primary btn-lg" href="resume.pdf" download="Kennedy_Gitau_Resume.pdf" target="_blank" role="button">
     <i class="bi bi-download"></i> Download PDF Resume
   </a>
 </div>
@@ -44,7 +43,7 @@ Highly motivated and technologically driven Actuarial Science professional with 
 
 ### Professional Actuarial Qualifications
 * **Institute and Faculty of Actuaries (IFoA, UK)**
-  * Professional Actuarial Papers: CS1 (Actuarial Statistics) & CM1 (Actuarial Mathematics) — *In Progress*
+  * Professional Actuarial Papers: CS1 (Actuarial Statistics) & CM2  — *In Progress*
 
 ### Academic Background
 * **The Catholic University of Eastern Africa (CUEA)**
