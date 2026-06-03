@@ -65,8 +65,9 @@ A Cox Proportional Hazards model that evaluates a policyholder's price-elasticit
 
 ---
 
-##[ Frontend: Streamlit Cloud UI ]
+[ Frontend: Streamlit Cloud UI ]
                │
+
                ▼ (Secure Cloud REST Traffic)
 [ Gateway API: FastAPI on Render Cloud ]
                │
@@ -76,8 +77,3 @@ A Cox Proportional Hazards model that evaluates a policyholder's price-elasticit
   Frequency Severity   Survival
 
 
-
-
-├── requirements.txt         # Production-locked application dependencies
-├── test_pipeline.py         # Automated unit test and validation suite
-└── Dockerfile               # Environment blueprint for containerized deployment
