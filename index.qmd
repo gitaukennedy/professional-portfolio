@@ -17,7 +17,7 @@ about:
 
 ## Actuarial Analyst & Actuarial Data Scientist
 
-My name is Kennedy Gitau Ngigi. I am a technically orientated Actuarial Science professional working towards accreditation with the Institute and Faculty of Actuaries, with papers CS1 and CM1 currently in progress.
+My name is Kennedy Gitau Ngigi. I am a technically orientated Actuarial Science professional working towards accreditation with the Institute and Faculty of Actuaries, with papers CS1 and CM2 currently in progress.
 
 I am also extensively experienced as a programmer and data science engineer. I have built complex predictive models, designed relational databases, structured backend APIs, and engineered everything you see on this website! All the applications and systems linked in the navigation bar above are my original projects, showcasing my ability to deliver complete, end-to-end data science and machine learning pipelines.
 
@@ -35,7 +35,7 @@ The combination of these core skills allows me to build robust, automated actuar
 
 ## Contact Information
 
-If you would like to discuss predictive modeling, actuarial risk analysis, or software engineering opportunities, feel free to reach out:
+If you would like to discuss predictive modeling, actuarial risk analysis, or Artificial Intelligence engineering opportunities, feel free to reach out:
 
 * **Email:** [gitaukennedy678@gmail.com](mailto:gitaukennedy678@gmail.com)
 * **GitHub:** [github.com/gitaukennedy](https://github.com/gitaukennedy)
