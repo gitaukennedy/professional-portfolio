@@ -1,9 +1,32 @@
 ---
 title: "Predicting Crop Insurance Claim Risk"
 ---
+## github Repository: [Predicting-Crop-Insurance-Claim-Risk-for-Kenyan-Smallholder-Farmers](https://github.com/gitaukennedy/Predicting-Crop-Insurance-Claim-Risk-for-Kenyan-Smallholder-Farmers)
 
 ## Project Overview
 This predictive modeling framework was engineered to identify and classify insurance claim risks for smallholder farmers. By utilizing comprehensive exploratory data analysis (EDA) and advanced classification techniques, the engine isolates high-risk profiles to improve underwriting accuracy and premium pricing.
+
+**Subject:** Transitioning from Blanket Regional Policy Rates to Farm-Level Risk Underwriting  
+
+### Executive Summary
+Our legacy framework of pricing agricultural policies based on coarse county averages leaves our portfolio exposed to adverse selection and unhedged weather shocks. By introducing this farm-level predictive risk engine, we can cleanly separate low-risk and high-risk accounts within counties, protecting our capitalization margins while maintaining competitive pricing out in the field.
+
+### Operational Prioritizations
+Using a standardized baseline claim liability framework of KSh 50,000 per claim, our model has quantified and ranked our total regional financial risk exposures. The underwriting team should immediately focus audits on our top three exposure vectors:
+1. **Nakuru County:** Total Portfolio Risk Exposure of KSh 8.75M (Mean Risk: 22.85%)
+2. **Uasin Gishu County:** Total Portfolio Risk Exposure of KSh 7.16M (Mean Risk: 23.82%)
+3. **Meru County:** Total Portfolio Risk Exposure of KSh 6.08M (Mean Risk: 21.20%)
+
+### Core Risk Architecture Drivers
+Our machine learning pipeline isolated three key parameters driving risk predictability across the portfolio:
+* **Rainfall Volatility:** Deviations outside historical norms represent the largest driver of claim volume.
+* **Claims History:** Farmers with a claim history over the last 3 years show double the return claim frequency.
+* **Soil Profile Quality:** Low soil performance ratings significantly decrease crop stress tolerance, turning moderate weather changes into major crop loss events.
+
+### Recommended Portfolio Actions
+* **Implement Dynamic Surcharges:** Add custom premium modifiers for individual accounts showing historic multi-claim profiles and poor soil quality scores, rather than applying general rate hikes to entire counties.a
+* **Target Audits Strategy:** Deploy field teams directly to high-risk clusters within Nakuru and Uasin Gishu to run site checks before policy renewals.
+* **Launch Mitigation Incentives:** Provide targeted rate discounts to farmers who utilize soil enhancements or approved irrigation infrastructure to actively steer the risk profile of our portfolio downward.
 
 ## Technical Stack
 * **Language:** Python
@@ -18,8 +41,68 @@ Here is a look at how the classification pipeline handles the underlying data st
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
+import os
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from sklearn.compose import ColumnTransformer
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
+
+fig, axes = plt.subplots(3, 2, figsize=(16, 18))
+axes = axes.flatten()
+
+# 1. Rainfall Distribution vs Claims
+sns.histplot(data=df, x='rainfall_received_mm', hue='claim_filed', kde=True, multiple='stack', ax=axes[0], palette='viridis')
+axes[0].set_title('1. Rainfall Distribution vs Claim Event')
+axes[0].set_xlabel('Rainfall Received (mm)')
+
+# 2. Previous Claims History Matrix
+sns.countplot(data=df, x='previous_claims_3yr', hue='claim_filed', ax=axes[1], palette='coolwarm')
+axes[1].set_title('2. Claim Propensity by Historical Payouts')
+axes[1].set_xlabel('Number of Claims Filed in Past 3 Years')
+
+# 3. County Risk Variance
+sns.countplot(data=df, y='county', hue='claim_filed', ax=axes[2], palette='muted', order=df['county'].value_counts().index)
+axes[2].set_title('3. Claim Incidents Across Kenyan Counties')
+axes[2].set_ylabel('County')
+
+# 4. Soil Quality Score Separation
+sns.boxplot(data=df, x='claim_filed', y='soil_quality_score', ax=axes[3], palette='Set2')
+axes[3].set_title('4. Soil Quality Score Separation')
+axes[3].set_xticklabels(['No Claim (0)', 'Claim Filed (1)'])
+
+# 5. Crop Type Baseline Claims Rate
+crop_rates = df.groupby('crop_type')['claim_filed'].mean().reset_index()
+sns.barplot(data=crop_rates, x='crop_type', y='claim_filed', ax=axes[4], palette='magma')
+axes[4].axhline(df['claim_filed'].mean(), color='red', linestyle='--', label='Average Systemic Risk (~12%)')
+axes[4].set_title('5. Empirical Claim Rate by Crop Type')
+axes[4].set_ylabel('Claim Frequency')
+axes[4].legend()
+
+axes[5].axis('off') # Remove empty grid cell
+plt.tight_layout()
+plt.show()
 
 # Sample structure representing the underwriting feature set
 print("Initializing Crop Insurance Risk Classifier...")
+CELL 5: FEATURE IMPORTANCE
+# ==============================================================================
+fi_df = pd.DataFrame({'Feature': all_features, 'Importance': rf_model.feature_importances_})
+fi_df = fi_df.sort_values(by='Importance', ascending=False)
+
+plt.figure(figsize=(10, 6))
+sns.barplot(data=fi_df, x='Importance', y='Feature', palette='viridis')
+plt.title('Risk Engine Driver Importances (Random Forest)')
+plt.xlabel('Relative Feature Importance Contribution Score')
+plt.tight_layout()
+plt.show()
+     
 # model.fit(X_train, y_train)
 print("Model pipeline verified successfully.")
+
