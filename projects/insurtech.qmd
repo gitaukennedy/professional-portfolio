@@ -69,11 +69,16 @@ A Cox Proportional Hazards model that evaluates a policyholder's price-elasticit
                │
 
                ▼ (Secure Cloud REST Traffic)
+
 [ Gateway API: FastAPI on Render Cloud ]
+
                │
+
       ┌────────┼────────┐
       ▼        ▼        ▼
-  [XGBoost] [LightGBM] [Cox PH]
-  Frequency Severity   Survival
+
+  [XGBoost]  [LightGBM]  [Cox PH]
+
+  Frequency  Severity    Survival
 
 
