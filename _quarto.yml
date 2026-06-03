@@ -15,10 +15,10 @@ website:
             text: "Strata Insurtech Platform"
           - href: projects/crop-insurance.qmd
             text: "Crop Insurance Risk Engine"
-          - href: projects/sauti-ya-mwananchi.qmd
-            text: "Sauti Ya Mwananchi"
           - href: projects/health-predictor.qmd
             text: "Health Risk Prediction"
+          - href: projects/sauti-ya-mwananchi.qmd
+            text: "Sauti Ya Mwananchi"
       - href: resume.qmd
         text: Resume
 
