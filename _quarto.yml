@@ -5,7 +5,7 @@ project:
 website:
   title: "Kennedy Gitau"
   navbar:
-    background: primary
+    background: dark
     left:
       - href: index.qmd
         text: About
@@ -24,7 +24,7 @@ website:
 
 format:
   html:
-    theme: darkly
+    theme: slate
     toc: true
     toc-title: "On this page"
     code-fold: true

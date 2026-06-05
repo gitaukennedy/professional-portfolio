@@ -1,10 +1,10 @@
 ---
-title: "Actuarial Analyst & Actuarial Data Scientist"
-image: profile.jpeg
+title: "Kennedy Gitau Ngigi"
+image: profile.jpg
 about:
   template: jolla
   links:
-    - icon: envelope
+    - icon: envelope-fill
       text: Email
       href: mailto:gitaukennedy678@gmail.com
     - icon: github
@@ -15,9 +15,9 @@ about:
       href: https://linkedin.com/in/kennedy-gitau-a242562b3
 ---
 
-### Kennedy Gitau Ngigi
+## Actuarial Analyst & Actuarial Data Scientist
 
-My name is Kennedy Gitau Ngigi. I am a technically orientated Actuarial Science professional working towards accreditation with the Institute and Faculty of Actuaries, with papers CS1 and CM1 currently in progress.
+My name is Kennedy Gitau Ngigi. I am a technically orientated Actuarial Science professional working towards accreditation with the Institute and Faculty of Actuaries, with papers CS1 and CM2 currently in progress.
 
 I am also extensively experienced as a programmer and data science engineer. I have built complex predictive models, designed relational databases, structured backend APIs, and engineered everything you see on this website! All the applications and systems linked in the navigation bar above are my original projects, showcasing my ability to deliver complete, end-to-end data science and machine learning pipelines.
 
@@ -27,9 +27,9 @@ The combination of these core skills allows me to build robust, automated actuar
 
 ## Technical Expertise
 
-* **Actuarial Science:** Mathematical risk modeling, loss reserving, liability projections, premium pricing frameworks, and professional certification preparation (IFOA Papers CS1 & CM1 in progress).
-* **Machine Learning & Engineering:** End-to-end deployment pipelines utilizing Python (Pandas, NumPy, Scikit-Learn), R, FastAPI, and Streamlit.
-* **Data Infrastructure:** Modern development and database design utilizing T-SQL (MS SQL Server), PostgreSQL, Docker, Git, and cloud automation platforms.
+* **Actuarial Science:** Mathematical risk modeling, loss reserving, liability projections, premium pricing frameworks, and professional certification preparation (IFOA Papers CS1 & CM2 in progress).
+* **Machine Learning & Engineering:** End-to-end deployment pipelines utilizing Python (Pandas, NumPy, Scikit-Learn), R (Tidyverse, Stats), FastAPI, and Streamlit.
+* **Data Infrastructure:** Modern development and database design utilizing T-SQL, PostgreSQL, MS SQL Server, Docker, Git, and cloud automation platforms.
 
 ---
 
