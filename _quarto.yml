@@ -24,7 +24,7 @@ website:
 
 format:
   html:
-    theme: slate
+    theme: flatly
     toc: true
     toc-title: "On this page"
     code-fold: true
