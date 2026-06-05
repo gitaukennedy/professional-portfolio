@@ -1,8 +1,8 @@
 ---
 title: "Kennedy Gitau Ngigi"
-image: profile.jpg
+image: profile.jpeg
 about:
-  template: jolla
+  template: trestles
   links:
     - icon: envelope
       text: Email
@@ -17,7 +17,7 @@ about:
 
 ## Actuarial Analyst & Actuarial Data Scientist
 
-My name is Kennedy Gitau Ngigi. I am a technically orientated Actuarial Science professional working towards accreditation with the Institute and Faculty of Actuaries, with papers CS1 and CM2 currently in progress.
+My name is Kennedy Gitau Ngigi. I am a technically orientated Actuarial Science professional working towards accreditation with the Institute and Faculty of Actuaries, with papers CS1 and CM1 currently in progress.
 
 I am also extensively experienced as a programmer and data science engineer. I have built complex predictive models, designed relational databases, structured backend APIs, and engineered everything you see on this website! All the applications and systems linked in the navigation bar above are my original projects, showcasing my ability to deliver complete, end-to-end data science and machine learning pipelines.
 
@@ -25,18 +25,13 @@ The combination of these core skills allows me to build robust, automated actuar
 
 ---
 
-## Technical Expertise
+## Technical Expertise & Scientific Stack
 
-* **Actuarial Science:** Mathematical risk modeling, loss reserving, liability projections, premium pricing frameworks, and professional certification preparation (IFOA Papers CS1 & CM2 in progress).
-* **Machine Learning & Engineering:** End-to-end deployment pipelines utilizing Python (Pandas, NumPy, Scikit-Learn), R (Tidyverse, Stats), FastAPI, and Streamlit.
-* **Data Infrastructure:** Modern development and database design utilizing T-SQL, PostgreSQL, MS SQL Server, Docker, Git, and cloud automation platforms.
+### 📊 Actuarial Science
+* **Methodologies:** Loss Reserving, Liability Projections, Premium Pricing Frameworks, IFRS 17 Reporting Guidelines.
+* **Professional Track:** Institute and Faculty of Actuaries (IFoA) — Papers CS1 (Actuarial Statistics) & CM1 (Actuarial Mathematics) in progress.
 
----
-
-## Contact Information
-
-If you would like to discuss predictive modeling, actuarial risk analysis, or Artificial Intelligence engineering opportunities, feel free to reach out:
-
-* **Email:** [gitaukennedy678@gmail.com](mailto:gitaukennedy678@gmail.com)
-* **GitHub:** [github.com/gitaukennedy](https://github.com/gitaukennedy)
-* **LinkedIn:** [linkedin.com/in/kennedy-gitau-a242562b3](https://linkedin.com/in/kennedy-gitau-a242562b3)
+### ⚙️ Machine Learning & Systems Engineering
+* **Languages:** Python (Pandas, NumPy, Scikit-Learn), R (Tidyverse, Stats), SQL (T-SQL, PostgreSQL).
+* **Frameworks & UI:** FastAPI, Django, Streamlit UI Engineering, Postman API Testing.
+* **Data Pipelines & Visualization:** Random Forest Classification, Regression Modeling, Power BI, Tableau, Advanced Data Validation.
