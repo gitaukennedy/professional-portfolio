@@ -24,7 +24,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: darkly
     toc: true
     toc-title: "On this page"
     code-fold: true
