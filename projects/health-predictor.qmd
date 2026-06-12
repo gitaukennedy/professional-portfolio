@@ -49,3 +49,5 @@ from sklearn.ensemble import RandomForestClassifier
 # Utilizing RandomForest to model complex health risk metrics (e.g., Glucose, BMI)
 classifier = RandomForestClassifier(n_estimators=100, random_state=42)
 print("Random Forest Classifier optimized for risk estimation.")
+ # The model captures non-linear interactions between health metrics, improving predictive accuracy over linear models.
+# This allows for more nuanced risk stratification, essential in healthcare applications where multiple factors interplay. 
