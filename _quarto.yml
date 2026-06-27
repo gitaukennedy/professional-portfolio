@@ -17,10 +17,8 @@ website:
             text: "Crop Insurance Risk Engine"
           - href: projects/health-predictor.qmd
             text: "Health Risk Prediction"
-          - href: projects/sauti-ya-mwananchi.qmd
-            text: "Sauti Ya Mwananchi"
-      - href: resume.qmd
-        text: Resume
+          - href: resume.qmd
+            text: "Resume"
 
 format:
   html:
