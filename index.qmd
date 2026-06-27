@@ -15,7 +15,7 @@ about:
       href: https://linkedin.com/in/kennedy-gitau-a242562b3
 ---
 
-## Actuarial Analyst & Actuarial Data Scientist
+## Actuarial Analyst &  Data Scientist
 
 My name is Kennedy Gitau Ngigi. I am a technically orientated Actuarial Science professional working towards accreditation with the Institute and Faculty of Actuaries, with papers CS1 and CM2 currently in progress.
 
